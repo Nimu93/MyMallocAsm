@@ -30,4 +30,4 @@ test.o: test.c
 	$(CC) -fPIC -c $< -o $@
 
 clean:
-	rm -f $(OBJ_FILES) $(EXEC) lib.so test.o
+	rm -f $(OBJ_FILES) $(EXEC) libmymalloc.so test.o

@@ -5,7 +5,7 @@ void* myfree(void* ptr); // Replace the default myfree
 
 int main() {
     // Test 1: Allocation simple
- /*   printf("Test 1: Allocation simple\n");
+    printf("Test 1: Allocation simple\n");
 
     int *ptr = (int*) mymalloc(sizeof(int)); // Allocation d'un entier
     if (ptr == NULL) {
@@ -54,7 +54,7 @@ int main() {
     myfree(null_ptr);  // Aucune action ne devrait être effectuée, et il ne doit y avoir de crash
 
     printf("La tentative de libération d'un pointeur NULL n'a pas causé de crash.\n");
-*/
+
 
     // Test 5: Allocation et libération dans une boucle
     printf("\nTest 5: Allocation et libération dans une boucle\n");
