@@ -37,7 +37,8 @@ Only 16-byte aligned memory allocations are supported.
 
 ### Layouts
 
-```+-----------------------+
+```
++-----------------------+
 | Page Metadata         |
 +-----------------------+
 | Block 1               |
