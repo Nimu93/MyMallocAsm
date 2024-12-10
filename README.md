@@ -50,7 +50,8 @@ Only 16-byte aligned memory allocations are supported.
 | Block N               |
 +-----------------------+
 | Next Page Pointer     |
-+-----------------------+```
++-----------------------+
+```
 
 ## How to Use
 
