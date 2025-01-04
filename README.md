@@ -1,6 +1,6 @@
 # MyMallocASM
 
-## Overview
+## Description
 This project implements a custom memory allocator in assembly. It allows allocation and deallocation of memory blocks, managing a memory pool in the form of pages. The allocator supports basic memory operations such as `malloc` (allocation) and `free` (deallocation). The maximum block size that can be allocated is limited to 4096 bytes, and each memory page has a size of 4096 bytes.
 
 ## How It Works
